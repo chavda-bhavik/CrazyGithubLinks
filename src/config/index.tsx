@@ -4,7 +4,7 @@ const siteMetadata = {
     image: `/og/default.png`,
     siteUrl:
         process.env.NODE_ENV === 'production'
-            ? 'https://crazygithublinks.herokuapp.com/'
+            ? 'https://crazygithublinks.herokuapp.com'
             : 'http://localhost:3000',
 };
 
