@@ -1,0 +1,30 @@
+export const colors = [
+    '#F5A623',
+    '#dce775',
+    '#2ccce4',
+    '#fcb900',
+    '#7bdcb5',
+    '#00d084',
+    '#8ed1fc',
+    '#abb8c3',
+    '#4db6ac',
+    '#aed581',
+    '#fff176',
+    '#ffd54f',
+    '#ffb74d',
+];
+
+export const icons: IconsType[] = [
+    'user',
+    'refresh',
+    'home',
+    'github',
+    'table',
+    'template',
+    'power',
+    'capture',
+    'box',
+    'target',
+    'thunder',
+    'universe',
+];

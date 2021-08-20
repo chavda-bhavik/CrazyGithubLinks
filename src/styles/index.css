@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .hover-lift-up {
+        @apply transform hover:-translate-y-1 duration-150;
+    }
+    .color-item {
+        @apply p-5 border-2 cursor-pointer hover:opacity-75 transition-opacity duration-200 border-gray-900 rounded-md hover-lift-up;
+    }
+    .icon-item {
+        @apply py-2 flex flex-col items-center md:flex-row gap-1 group justify-center border-2 cursor-pointer bg-gray-300 transition-colors duration-200 hover:bg-gray-200 border-gray-900 rounded-md;
+    }
+    .btn {
+        @apply tracking-wide font-semibold text-base rounded-lg transition-all duration-300 ease-in-out flex items-center justify-center focus:outline-none;
+    }
+    .btn-primary {
+        @apply bg-green text-gray-100 hover:bg-shades-1;
+    }
+    .input-error {
+        @apply text-red-500 text-sm italic mt-1;
+    }
+    .link {
+        @apply text-blue-500 inline-flex mb-1 items-center cursor-pointer hover:underline;
+    }
+}
