@@ -80,7 +80,15 @@ const Index: React.FC<IndexProps> = ({}) => {
         setGeneratedLink(link);
     };
     const copyLink = () => {
-        navigator.clipboard.writeText(generatedLink);
+        const el = document.createElement('textarea');
+        el.value = generatedLink;
+        el.setAttribute('readonly', '');
+        el.style.position = 'absolute';
+        el.style.left = '-9999px';
+        document.body.appendChild(el);
+        el.select();
+        document.execCommand('copy');
+        document.body.removeChild(el);
         setLinkCopied(true);
     };
     const reset = () => {
