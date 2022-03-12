@@ -1,60 +1,35 @@
-# CrazyGithubLinks
+<div align="center">
+  <h2>CrazyGithubLinks</h2>
 
-> CrazyGithubLinks is a place to create unique sharable links for your repositories, that encourages its users to star and view the repository.
-
----
-
-## About
-
-Application is built in Nextjs, typescript and tailwindcss.
-
-It has following two stages.
-
-### 1. Create Link Stage
-
--   Anyone can create link for their repository, with few clicks and information.
-
--   To create link one just need to go to [CrazyGithubLinks](https://crazygithublinks.herokuapp.com), and write their github username, github repository name, select color and select icon, and application will generate unique link for them
-
--   It has validation implemented for required and valid github data.
-
--   Generated link can be copied with single click and can be shared easily on social media. It also has open-graph tags implemented that makes it more interactive to share on social media.
-
-### 2. View Link Stage
-
--   Shared link can be viewed in beautiful card containing all important information about repository, contributors and `star it` button to star the repository.
-
--   Page shows background color that user has selected and icon that user has selected.
+  ### NextJS App to  Create unique sharable links for your repositories, that encourages its users to star and view the repository.
+  
+  ![CrazyGithubLinks](https://user-images.githubusercontent.com/50201755/157999691-e92c82d1-5e52-4ef7-9ccd-c1aa5e367e91.gif)
+</div>
 
 ---
 
-## Tech Stack
 
-### Packages
+#### Running locally 🏃
 
-1. `nextjs` => for development
-2. `tailwindcss` => for styling the application
+- `git clone https://github.com/chavda-bhavik/CrazyGithubLinks.git`
+- `yarn` (after navigating inside the directory)
+- `yarn dev`
 
-### Helpers
 
-1. `typescript`
-2. `eslint-prettier`
+## About CrazyGithubLinks 🔗
 
----
+### Steps
+- Fill up repository details and select color & icon of your choice
+- Create & Copy Unique link
+- Use link to share & view repository details
 
-## Get CrazyGithubLinks up & running
+### Features
+- Validates repository information
+- Copy generated link
+- Repository view page uses color and icon user selected
 
-To have this application up and running in your system you have to follow 2 steps:
+### Technologies
+- [NextJS](https://nextjs.org) and [ReactJS](https://reactjs.org/) with hooks
+- [TailwindCSS](https://tailwindcss.com) for Styling
+------------
 
-1. Install required packages
-
-```
-yarn/npm install
-```
-
-2. Start development server
-
-```
-yarn/npm dev
-yarn/npm start
-```
